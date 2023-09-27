@@ -1,0 +1,22 @@
+header{
+    width:auto;
+    height:auto;
+    background: #C4DFDF;
+}
+#judul{
+    width: fit-content;
+}
+#taskbar{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    background:#D2E9E9;
+    height: 40px;
+}
+#selectedbar{
+    background: #C4DFDF;
+}
+.subtaskbar{
+    display: flex;
+    font-size: larger;
+}
