@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="calLayout.css">
+</head>
+<body>
+    <div class="kalkulator">
+        <div class="judul">
+            <h3>Kalkulator</h3>
+        </div>
+        <div class="disCont">
+            <input type="text"id="display" disabled>
+        </div>
+        <div class="disNum">
+            <button onclick="input('1')" class="Number" id="satu">1</button>
+            <button onclick="input('2')" class="Number" id="dua">2</button>
+            <button onclick="input('3')" class="Number" id="tiga">3</button><br>
+            <button onclick="input('4')" class="Number" id="empat">4</button>
+            <button onclick="input('5')" class="Number" id="lima">5</button>
+            <button onclick="input('6')" class="Number" id="enam">6</button><br>
+            <button onclick="input('7')" class="Number" id="tujuh">7</button>
+            <button onclick="input('8')" class="Number" id="delapan">8</button>
+            <button onclick="input('9')" class="Number" id="sembilan">9</button><br>
+            <button class="Number" id="null" disabled>#</button>
+            <button onclick="input('0')" class="Number" id="nol">0</button>
+            <button onclick="input('.')" class="Number" id="koma">.</button>
+        </div>
+        <div class="disOperator">
+            <button onclick="input('+')" class="operator" id="tambah">+</button>
+            <button onclick="input('-')" class="operator" id="kurang">-</button>
+            <button onclick="input('*')" class="operator" id="kali">x</button>
+            <button onclick="input('/')" class="operator" id="bagi">/</button>
+        </div>
+        <div class="disControl">
+            <button onclick="clearDisplay()" class="control" id="clear">Clear</button>
+            <button onclick="result()" class="control" id="result">Result</button>
+        </div>
+    </div>
+    <script src="calOperator.js"></script>
+</body>
+</html>

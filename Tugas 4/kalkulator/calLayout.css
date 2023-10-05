@@ -1,0 +1,68 @@
+.kalkulator{
+    background-color: #016A70;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 50px rgb(62, 62, 62);
+    height: 650px;
+    width: 500px;
+    margin-left: 600px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.judul{
+    font-size: 25px;
+    background-color: #FFFFDD;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 10px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+input{
+    font-size: 25px;
+    color: #FFFFDD;
+    background-color: darkslategray;
+}
+
+button{
+    font-size:25px;
+    border-radius: 5px;
+    margin: 3px;
+    transition-duration: 0.3s;
+    padding: 16px;
+}
+
+button:hover{
+    background-color: #016A70;
+    color: white;
+}
+
+.disNum{
+    margin: 20px;
+}
+
+.disOperator{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.number{
+    background-color: #FFFFDD;
+    transition-duration: 0.4s;
+}
+
+.operator{
+    background-color: #D2DE32;
+}
+
+.control{
+    background-color: #A2C579;
+}
